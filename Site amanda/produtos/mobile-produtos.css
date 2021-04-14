@@ -1,0 +1,14 @@
+@media screen and (min-width:1px) and (max-width:600px){
+    .section-produtos{
+        margin: 4% 5%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .nome-produto{
+        font-size: 1.5em;
+        font-family: courgette;
+        margin-top: 5%;
+    }
+    .preco-produto{
+        font-size: 2em;
+    }
+}

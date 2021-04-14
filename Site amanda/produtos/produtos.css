@@ -1,0 +1,71 @@
+
+/* produtos*/
+
+/* container para os produtos */
+.section-produtos{
+	display: grid;
+	margin: 4% 22%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: auto;	
+}
+/*produto */
+.container-produtos{
+	position: relative;
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	width: 90%;
+	box-shadow: 0 1px 3px 0 rgba(0 ,0 ,0 , 0.1),  0 2px 4px 0 rgba(0 ,0 ,0 , 0.01);
+}
+
+.container-produtos img{
+	width: 100%;
+	height: auto;	
+}
+.nome-produto{
+	font-size: 1em;
+	font-family: courgette;
+	margin-top: 5%;
+}
+.preco-produto{
+	font-family: courgette;
+	margin: 5%  0;
+	color: rgb(33, 167, 16);
+}
+/*produto fim*/
+/* novidades fim*/
+
+.overlay{
+	cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+}
+.fa-grin-hearts{
+    color: white;
+    position: absolute;
+    font-size: 4em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-produtos:hover{
+	transition: .4s ease;
+	box-shadow: 0 4px 6px 0 rgba(0 ,0 ,0 , 0.1),  0 6px 10px 0 rgba(0 ,0 ,0 , 0.09);
+}
+.container-produtos:hover img{
+    filter: brightness(1.06) contrast(1.06); 
+    transition: .4s ease;
+    
+}
+footer{
+	background-color: #1e2125;
+}

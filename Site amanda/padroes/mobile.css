@@ -1,0 +1,50 @@
+@media screen and (min-width:1px) and (max-width:600px){
+    body{
+        font-size: 80%;
+    }
+    main{
+        width: 100%;
+    }
+    /* header */
+    .logo{
+        /* display: none; */
+        width: 50%;
+        padding-bottom: 5%;
+    }
+    header nav{
+        position: relative;
+    }
+    .container-interno-item strong{
+        display: none;
+    }
+    .icon{
+        font-size: 1em;
+        margin: 5% 0;
+    }
+    .cores{
+        flex-wrap: nowrap;
+    }
+    .item{
+        flex-basis: 100%;
+    }
+    .cores .item:nth-child(3){
+        display:none;
+    }
+    /* fim header */
+    /* footer */
+    .mapa {
+        display: none;
+    }
+    .nomes-sociais{
+        display:none;
+    }
+    .nome{
+        margin: 6% 0;
+        width: 35%;
+    }
+    .btn {
+        font-size: 2em;
+    }
+    
+    /* fim footer */
+}

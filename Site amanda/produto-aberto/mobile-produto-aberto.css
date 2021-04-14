@@ -1,0 +1,11 @@
+@media screen and (min-width:1px) and (max-width:600px){
+    main{
+        width: 95%;
+    }
+    .container-produto img{
+        width: 90%;
+        flex-grow: 1;
+        justify-self: center;
+        align-self: center;
+    }
+}

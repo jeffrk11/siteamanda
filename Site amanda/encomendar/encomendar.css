@@ -1,0 +1,119 @@
+
+section{
+  margin: 5% auto;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #e7e7e71f;
+  box-shadow: 0 2px 4px 0 rgba(0 ,0 ,0 , 0.1),  0 6px 10px 0 rgba(0 ,0 ,0 , 0.05);
+}
+
+.header-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px 30px 0px 0px;
+}
+.header-form img{
+  border-radius: 50%;
+  margin: 10px;
+  width: 20%;
+}
+.header-form p {
+  font-family: courgette;
+}
+.container{
+  margin: 2% auto;
+  padding: 4%;
+  
+}
+h3{
+  font-family: courgette;
+  font-weight: normal;
+}
+.botoes-form{
+   display:flex;
+   justify-content: center;
+}
+.btn{
+  border: none;
+  margin: 4%;
+  width:15%;
+  height:20%;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2134e0;
+}
+
+/* para o formulatio */
+form p{
+  display:flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+p label{
+  font-family: sans-serif;
+  width: 10%;
+}
+p input{
+  width: 50%; 
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 1px solid rgb(97, 97, 97);
+  padding: 2px;
+  font-family: inherit;
+  font-size: 1em;
+}
+/* fim */
+.fretes{ 
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  height: 100%;
+}
+.frete-op {
+  width: 10%;
+  height: 80%;
+  padding: 4%;
+  margin: 2%;
+  position: relative;
+}
+.frete-op label{
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: courgette;
+  align-items: center;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+}
+label strong{ 
+  font-size: 3em;
+  color: #2134e0;
+ }
+ strong sup{
+  margin-left: 4px;
+  font-size:.45em; 
+ }
+ label span{
+   color: #4550b1;
+ }
+.frete-op input:checked + label{
+  background-color: #2134e0; 
+ }
+ .frete-op input:checked + label strong{
+  color: white; 
+ }
+ .frete-op input:checked + label span{
+  color: white; 
+ }

@@ -1,0 +1,17 @@
+@media screen and (min-width:1px) and (max-width:600px){
+    .header-form img{
+        width: 40%;
+    }
+    section{
+        width: 95%;
+    }
+    label strong{ 
+        font-size: 2em;
+    }
+    form P {
+        margin: 8% 0;
+    }
+    .btn{
+        font-size: 1.5em;
+    }
+}

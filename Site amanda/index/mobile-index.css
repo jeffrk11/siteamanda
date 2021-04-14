@@ -1,0 +1,26 @@
+@media screen and (min-width:1px) and (max-width:600px){
+.bemvindo img{
+    width: 50%;
+}
+.secoes{
+    width: 100%;
+}
+.grids{
+    grid-template-columns: 1fr; 
+}
+.categoria-grid {
+    grid-template-columns: 1fr 1fr; 
+}
+.flexes .span {
+    font-size: 2.3em;
+}
+.texto-sobre{
+    font-size: 1.9em;
+}
+h1{
+    font-size: 3em;
+}
+.popu img{
+    width: 30%;
+}
+}

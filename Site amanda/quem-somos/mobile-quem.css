@@ -1,0 +1,21 @@
+@media screen and (min-width:1px) and (max-width:600px){
+    h1{
+        font-size: 3em;
+    }
+    .info-sobre{
+        font-size: 1.5em;
+        width: 85%;
+    }
+    .flex-social span{
+        font-size: 1.5em;
+    }
+    .section-redes-sociais{
+        width: 95%;
+    }
+    .persona{
+        width: 65%;
+    }
+    .flex-social i{
+        font-size: 4em;
+    }
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+/* cabeçalho*/
+header{
+	position: relative;
+	/* background-color: #484b4f; */
+	display: flex;
+	font-size: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.logo {
+	width: 17%;
+	height: auto;
+	padding-top: 15px;
+}
+
+nav{ 
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 1%;
+	/* transform: translateY(-50%); */
+}
+
+.cores{ 
+	list-style: none; 
+	text-align:center;
+	z-index: 2;
+	position: relative;
+	
+	width: 100%;
+	height: 5%;
+	
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.fas{
+	font-size: 2em;;
+}
+.container-interno-item strong{
+	color: #484b4f;
+	z-index:2;
+	font-size: 1em;
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+}
+
+.container-interno-item{
+	display:flex;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.selec {
+	width: 100%;
+	height:5px;
+	z-index: 1;
+}
+
+/* animação e troca de cor*/
+.liquem:hover .selec{ 
+	animation: scale-up-ver-bottom 0.3s both;  
+}
+.liquem:hover .icon-quem, .liquem:hover strong { color: white; fill: white;}
+.icon-quem{	
+	color: #ea2222;
+}
+.scarrinho{
+	background-color: #ea2222;
+}
+
+.liprodutos:hover .selec{animation: scale-up-ver-bottom 0.3s both; }
+.liprodutos:hover .icon-categoria, .liprodutos:hover strong { color: white; fill: white;}
+.icon-categoria{				color: #22c8ea;}
+.scategoria{ 		background-color: #22c8ea;}
+
+.svazio{
+	padding-top: auto;
+	background-color: #ea2222;
+}
+
+.linovidades:hover .selec{animation: scale-up-ver-bottom 0.3s both; }
+.linovidades:hover .icon-novidades, .linovidades:hover strong { color: white; fill: white;}
+.icon-novidades{				color: #e322ea;}
+.snovidades{		background-color: #e322ea;}
+
+.licomo:hover .selec{animation: scale-up-ver-bottom 0.3s both; }
+.licomo:hover .icon-como, .licomo:hover strong { color: white; fill: white;}
+.icon-como{				color: #ea6822;}
+.sencomendar{		background-color: #ea6822;}
+
+/* li */
+.item{
+	transition: transform .2s;
+	flex-basis: 15%;
+	align-self: stretch;
+}
+/* li do meio */
+.item:nth-child(3){
+	flex-basis: 24%; /*atrelado a imagem :width */
+	height: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  z-index:2; 
+}
+
+
+@keyframes scale-up-ver-bottom {
+	0% {
+	  transform: scaleY(0.4);
+	  transform-origin: 0% 100%;
+	}
+	100% {
+	  transform: scaleY(13);
+	  transform-origin: 0% 100%;
+	}
+}
+/* animação e troca de cor fim*/
+/*cabeçalho fim*/
